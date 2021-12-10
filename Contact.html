@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="wwwroot/css/bootstrap.css" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: blueviolet;
+       
+    }
+    .container{
+        width: 530px;
+        background-color:#fff;
+        top:20%;
+        left: 40%;
+        position: absolute;
+        
+        
+        
+        
+    }
+    form{
+        margin: 50px;
+
+    }
+    .input-field{
+        width: 500px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border-radius: 14px;
+    }
+    .textarea-field{
+        height: 150px;
+        padding-top: 20px;
+
+
+    }
+    .btn{
+        color: #fff;
+        margin-top: 5px;
+        padding:10px;
+        background-color:#47c35a;
+        font-size: 12px;
+        border-radius: 18px;
+    }
+</style>
+<body>
+    <!--navbar begins-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <div class="container">
+            <a href="#" class="navbar-brand">Home</a>
+            <Button type="button" class="navbar-toggler" data-bs-target="#myNavbar" data-bs-toggle="collapse" aria-expanded="false" aria-labelledby="myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </Button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="nav-item">
+                    <a href="#" class="nav-link">About</a>   
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">contact</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">Activities</a>
+                </div>
+             <!---margin left:auto-->
+                <div class="nav-item ms-auto">
+                        <a class="nav-link" href="register2.html">Log In</a>
+                </div>
+   
+                <div class="nav-item">
+                            <a class="nav-link">Register</a>
+                </div>
+   
+   
+    </nav>
+    <div class="container">
+        <form>
+        </form>
+        <h1 class="text-center">Contact form design</h1>
+        <input type="text" class="input-field" placeholder="Your name">
+        <input type="email" class="input-field" placeholder="Your email">
+        <input type="text" class="input-field" placeholder="Subject">
+        <textarea type="text"class="input-field textarea-field" placeholder="Your message"></textarea> 
+        <button type="button" class="btn"> Send message</button>
+
+    </div>
+   
+    
+</body>
+</html>
